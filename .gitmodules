@@ -1,0 +1,3 @@
+[submodule "budget-treemap"]
+	path = budget-treemap
+	url = https://github.com/edsource/budget-treemap
