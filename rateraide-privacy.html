@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>Rateraide &mdash; Privacy Policy</title>
+	</head>
+	<body>
+		<h1>Rateraide &mdash; Privacy Policy</h1>
+		<p><strong>Effective date:</strong> June 23, 2026</p>
+
+		<p>Rateraide ("the extension," "we," "our") is a time-tracking tool for
+		search-quality raters. This policy explains exactly what data the
+		extension handles and where it goes. In short: <strong>everything stays
+		on your own computer, and nothing is sent anywhere unless you personally
+		choose to back up to your own Google Drive.</strong></p>
+
+		<h2>1. Summary</h2>
+		<ul>
+			<li>All data is <strong>collected, stored, processed, and kept
+			locally on your device, and only locally.</strong></li>
+			<li>We operate <strong>no servers</strong> and <strong>receive no
+			data</strong> from you. There is no analytics, no telemetry, no
+			tracking, and no advertising.</li>
+			<li>The <strong>only</strong> time any data leaves your device is if
+			<strong>you</strong> explicitly enable the optional Google Drive
+			backup. In that case a single backup file is saved to <strong>your
+			own</strong> Google Drive account, and that data is then handled
+			under <strong>Google's</strong> privacy policy.</li>
+			<li>Your data is used solely to track your rating activity, task
+			counts, and times &mdash; and for <strong>no other purpose
+			whatsoever.</strong></li>
+		</ul>
+
+		<h2>2. What data the extension handles</h2>
+		<p>To provide time tracking, the extension records and computes,
+		locally:</p>
+		<ul>
+			<li><strong>Work sessions:</strong> start/stop times, durations, and
+			the earnings/AET totals you configure.</li>
+			<li><strong>Per-task information observed on raterhub.com:</strong>
+			task type, acquisition and submission times, and task counts.</li>
+			<li><strong>Your settings/preferences</strong> (for example, hourly
+			rate, display options, sounds).</li>
+		</ul>
+		<p>This information is derived from the pages you are already viewing on
+		raterhub.com and from your own activity. It is never transmitted to us or
+		to any third party.</p>
+
+		<h2>3. Where your data is stored</h2>
+		<ul>
+			<li>All of the above is stored in the browser's local extension
+			storage (<tt>chrome.storage.local</tt>) on your device.</li>
+			<li>The extension contains no code that sends your session data,
+			browsing data, or personal information to the developer or to any
+			third-party service.</li>
+		</ul>
+
+		<h2>4. Optional Google Drive backup</h2>
+		<ul>
+			<li>The extension offers an <strong>optional, user-initiated</strong>
+			backup so you do not lose your history. It is <strong>off unless you
+			turn it on.</strong></li>
+			<li>When you enable it and sign in with Google, the extension uses
+			Google OAuth with the narrow <tt>drive.file</tt> scope and writes a
+			single JSON file (<tt>rateraide_2_0_sync_data.json</tt>) containing
+			your own session data to <strong>your own</strong> Google Drive.</li>
+			<li>The <tt>drive.file</tt> scope restricts the extension to only the
+			files it itself creates; it cannot read or access any of your other
+			Google Drive files.</li>
+			<li>Once stored in your Google Drive, that data is subject to
+			<strong>Google's Privacy Policy</strong>
+			(<a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a>)
+			and your Google account settings. We do not have access to it, and
+			you can delete the backup file from your Drive at any time.</li>
+			<li>If you never enable this feature, <strong>no data ever leaves
+			your device.</strong></li>
+		</ul>
+
+		<h2>5. What we do NOT do</h2>
+		<ul>
+			<li>We do <strong>not</strong> collect, transmit, sell, rent, or
+			share your data.</li>
+			<li>We do <strong>not</strong> use analytics, telemetry, tracking
+			pixels, fingerprinting, or advertising.</li>
+			<li>We do <strong>not</strong> send data to the developer or to any
+			third-party server.</li>
+			<li>We do <strong>not</strong> use your data for any purpose other
+			than tracking your rating activity and times.</li>
+		</ul>
+
+		<h2>6. Network access</h2>
+		<p>The extension's host permissions are limited to:</p>
+		<ul>
+			<li><tt>https://*.raterhub.com/*</tt> &mdash; to observe your task
+			pages locally for time tracking (read-only; nothing is sent to
+			us).</li>
+			<li><tt>https://www.googleapis.com/*</tt> &mdash; used
+			<strong>only</strong> if you enable the Google Drive backup, to
+			communicate with the Google Drive API.</li>
+		</ul>
+		<p>Apart from Google's own sign-in and Drive services used by the
+		optional backup, the extension contacts no other network
+		destinations.</p>
+
+		<h2>7. Data retention and deletion</h2>
+		<ul>
+			<li>Your data remains on your device until you delete it. You can
+			clear it using the extension's data controls, by removing the
+			extension, or by clearing the browser's extension storage.</li>
+			<li>If you enabled Google Drive backup, delete
+			<tt>rateraide_2_0_sync_data.json</tt> from your Google Drive to remove
+			the cloud copy.</li>
+		</ul>
+
+		<h2>8. Children's privacy</h2>
+		<p>The extension is intended for working raters and is not directed to
+		children. It collects no data from anyone beyond what is described above
+		(locally, on the user's own device).</p>
+
+		<h2>9. Changes to this policy</h2>
+		<p>We may update this policy as the extension evolves. Material changes
+		will be reflected in this document with a new effective date.</p>
+
+		<h2>10. Contact</h2>
+		<p>Questions about this policy:
+		<a href="mailto:segin2005@gmail.com">segin2005@gmail.com</a>.</p>
+
+		<p><a href="rateraide.html">&larr; Back to Rateraide</a></p>
+	</body>
+</html>
